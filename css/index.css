@@ -1,3 +1,53 @@
+@font-face {
+    font-family: latoBlack;
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: latoBlackItalic;
+    src: url(../fonts/Lato/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: latoBold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: latoItalic;
+    src: url(../fonts/Lato/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: latoHairline;
+    src: url(../fonts/Lato/Lato-Hairline.ttf);
+}
+
+@font-face {
+    font-family: latoHairlineItalic;
+    src: url(../fonts/Lato/Lato-HairlineItalic.ttf);
+}
+
+@font-face {
+    font-family: latoItalic;
+    src: url(../fonts/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: latoLight;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: latoLightItalic;
+    src: url(../fonts/Lato/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
 @font-face	{
 	font-family: adam;
 	src: url(../fonts/adam.otf);
@@ -17,23 +67,6 @@ a	{
 	color: white;
 }
 
-#underd	{
-	z-index: 9999;
-	position: fixed;
-	background: rgba(0,0,0,0.5);
-	width: 200px;
-	color: white;
-	border-radius: 0px 6px 6px 0px;
-	text-align: center;
-	margin-top: 4%;
-	float: right;
-	line-height: 64px;
-}
-
-#underd:hover	{
-	background: crimson;
-}
-
 
 
 #third	{
@@ -46,6 +79,7 @@ a	{
 	border-radius: 100%;
 	margin: 0px auto;
 	z-index: 2;
+	box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.5);
 }
 
 #forth	{
@@ -81,6 +115,7 @@ a	{
 	margin-top: 20px;
 	text-align: center;
 	font-size: 250%;
+	font-family: latoHairline;
 }
 
 #second	{
@@ -93,6 +128,7 @@ a	{
 	margin-top: 10px;
 	text-align: center;
 	font-size: 110%;
+	font-family: lato;
 }
 
 #post4	{
@@ -108,7 +144,7 @@ a	{
 
 
 #postpic1	{
-	background: url(../images/back1.jpg);
+	background: url(../images/about.jpg);
 }
 
 #postpic2	{
@@ -116,11 +152,11 @@ a	{
 }
 
 #postpic3	{
-	background: url(../images/back3.jpg);
+	background: url(../images/paint.jpg);
 }
 
 #postpic4	{
-	background: url(../images/back4.jpg);
+	background: url(../images/duet.jpg);
 }
 
 #postpic1, #postpic2, #postpic3, #postpic4	{
@@ -133,9 +169,11 @@ a	{
 
 #postheading	{
 	font-size: 25px;
-	color: white;
-	background: orange;
+	color: #19639c;
+	background: #292f33;
 	line-height: 75px;
+	font-family: latoHairline;
+	color: white;
 	text-align: center;
 	border-radius: 0px 0px 6px 6px;
 }
@@ -143,7 +181,8 @@ a	{
 #social2	{
 	clear: both;
 	height: 64px;
-	background: white;
+	color: #19639c;
+	background: #292f33;
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
 	margin: 2%;
 }
@@ -153,12 +192,13 @@ a	{
 	width: 20%;
 	text-align: center;
 	float: right;
-    transition: background 1s;
+	color: #19639c;
+    transition: background 0.5s;
 }
 
 #fbicon:hover	{
 	color: white;
-	-webkit-transition-timing-function: linear;
+	-webkit-transition-timing-function: ease-in-out;
 	background: rgb(58, 87, 149);
 }
 
