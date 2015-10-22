@@ -1,0 +1,312 @@
+@font-face {
+    font-family: latoBlack;
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: latoBlackItalic;
+    src: url(../fonts/Lato/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: latoBold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: latoItalic;
+    src: url(../fonts/Lato/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: latoHairline;
+    src: url(../fonts/Lato/Lato-Hairline.ttf);
+}
+
+@font-face {
+    font-family: latoHairlineItalic;
+    src: url(../fonts/Lato/Lato-HairlineItalic.ttf);
+}
+
+@font-face {
+    font-family: latoItalic;
+    src: url(../fonts/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: latoLight;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: latoLightItalic;
+    src: url(../fonts/Lato/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: adam;
+    src: url(../fonts/adam.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #ececec;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#third {
+    background: url(../images/yas1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 0px auto;
+    z-index: 2;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.5);
+}
+
+#forth {
+    color: white;
+}
+
+#navlist {
+    line-height: 24px;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: adam;
+    color: #34FFE9;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.navlist {
+    float: left;
+    list-style: none;
+    width: 100px;
+    text-align: center;
+    color: #34FFE9;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navlist:hover {
+    color: white;
+}
+
+#headerheadingname {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 250%;
+    font-family: latoHairline;
+}
+
+#second {
+    z-index: 999;
+    padding: 25px 0 50px 0;
+    margin-bottom: 1%;
+}
+
+#headerheadingdetails {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 110%;
+    font-family: lato;
+}
+
+#social2 {
+    clear: both;
+    height: 64px;
+    color: #19639c;
+    background: #292f33;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    margin: 2%;
+}
+
+#fbicon,
+#giticon,
+#flickericon,
+#twittericon,
+#linkedinicon {
+    line-height: 64px;
+    width: 20%;
+    text-align: center;
+    float: right;
+    color: #19639c;
+    transition: background 0.5s;
+}
+
+#fbicon:hover {
+    color: white;
+    -webkit-transition-timing-function: ease-in-out;
+    background: rgb(58, 87, 149);
+}
+
+#giticon:hover {
+    -webkit-transition-timing-function: ease-in-out;
+    background: #4183c4;
+    color: white;
+}
+
+#flickericon:hover {
+    -webkit-transition-timing-function: ease-in-out;
+    background: #ff0084;
+    color: white;
+}
+
+#twittericon:hover {
+    -webkit-transition-timing-function: ease-in-out;
+    color: white;
+    background: #55acee;
+}
+
+#linkedinicon:hover {
+    -webkit-transition-timing-function: ease-in-out;
+    color: white;
+    background: #000000;
+}
+
+#yasmi3 {
+    height: 400px;
+    width: 96%;
+    background: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 2%;
+}
+
+#yasmipost {
+    height: 86%;
+    background: #ececec;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 2%;
+}
+
+#yasmimenu {
+    height: 100%;
+    box-shadow: 0px 0px 10px 5px grey;
+}
+
+#footer3 {
+    clear: both;
+    background: white;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.listitems {
+    line-height: 50px;
+    float: left;
+    color: white;
+    list-style-type: none;
+    width: 16.66666%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    background: black;
+    transition: background 1s;
+}
+
+.listitems:hover {
+    -webkit-transition-timing-function: linear;
+    color: black;
+    background: white;
+}
+
+.yasmi {
+    height: 100%;
+    float: left;
+    color: white;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    background: black;
+    transition: box-shadow 0.5s;
+}
+
+.yasmi:hover {
+    -webkit-transition-timing-function: linear;
+    color: black;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    position: relative;
+    z-index: 9999;
+    font-size: 25px;
+}
+
+#yasmiblog {
+    background: url(../images/blogpic1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#yasmigallery {
+    background: url(../images/gallerypic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#yasmiarts {
+    background: url(../images/artspicfinal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#yasmipoetry {
+    background: url(../images/back12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#firsthr    {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+
+#thirdimageheader   {
+
+}
+
+#heyheading {
+    color: white;
+    font-family: adam;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+#heysub1    {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: latoBold;
+    font-size: 25px;
+}
+
+#heysub2    {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: latoHairlineItalic;
+    font-size: 15px;
+}
+
