@@ -310,3 +310,119 @@ a {
     font-size: 15px;
 }
 
+#about2 {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    height: 300px;
+}
+
+.aboutfrom  {
+    width: 50%;
+    height: 100px;
+    color: #19639c;
+    float: left;
+}
+
+.abouticon  {
+    float: left;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    margin-top: 20px;
+}
+
+#lovesto    {
+    padding-top: 15px;
+}
+
+#iconfrom   {
+    padding-top: 15px;
+    font-size: 17px;
+    color: #57abeb;
+}
+
+#agraicon   {
+    font-size: 25px;
+    font-family: latoRegular;
+}
+
+
+#aboutdesicon   {
+    font-size: 15px;
+    color: #899aa6;
+    margin-top: 5px;
+    font-family: latoItalic;
+}
+
+
+.from3  {
+    margin-top: 70px;
+}
+
+.from4  {
+    margin-top: 70px;
+}
+
+
+#afterabout2    {
+    width: 20%;
+    margin: 0px auto;
+}
+
+
+#somebooks1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: latoItalic;
+    font-size: 25px;
+}
+
+
+#books3 {
+    width: 50%;
+    height: 400px;
+    background: url(../images/books.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+
+#bitintro2   {
+    margin-top: 100px;
+    background: white; /*can be white..*/
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+
+.bitintrop  {
+    font-size: 18px;
+    width: 40%;
+    line-height: 29px;
+    color: #19639c;
+    margin: 30px auto;
+    font-family: lato;
+}
+
+
+.bitquote   {
+    width: 50%;
+    margin: 10px auto;
+    font-size: 30px;
+    color: #57abeb;
+    font-family: latoLightItalic;
+    letter-spacing: 2px;
+}
+
+#bitthanks  {
+    font-size: 15px;
+}
