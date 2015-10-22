@@ -1,3 +1,8 @@
+@font-face	{
+	font-family: adam;
+	src: url(../fonts/adam.otf);
+}
+
 *	{
 	margin: 0px;
 	padding: 0px;
@@ -7,7 +12,10 @@ body	{
 	background: #ececec;
 }
 
-
+a	{
+	text-decoration: none;
+	color: white;
+}
 
 #underd	{
 	z-index: 9999;
@@ -44,6 +52,31 @@ body	{
 	color: white;
 }
 
+#navlist	{
+	line-height: 24px;
+	font-size: 14px;
+	padding-top: 20px;
+	font-family: adam;
+	color: #34FFE9;
+	margin-right: 70px;
+	float: right;
+}
+
+.navlist	{
+	float: left;
+	list-style: none;
+	width: 100px;
+	text-align: center;
+	color: #34FFE9;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navlist:hover	{
+	color: white;
+}
+
+
 #headerheadingname	{
 	margin-top: 20px;
 	text-align: center;
@@ -52,8 +85,8 @@ body	{
 
 #second	{
 	z-index: 999;
-	padding: 50px 0 50px 0;
-	margin-bottom: 2%;
+	padding: 25px 0 50px 0;
+	margin-bottom: 1%;
 }
 
 #headerheadingdetails	{
