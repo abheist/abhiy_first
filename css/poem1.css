@@ -430,6 +430,52 @@ a {
     background-repeat: no-repeat;
 }
 
+
+
+.dowhatyoulove {
+    background: url(../images/do.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.customervsemployee {
+    background: url(../images/cus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.whatyouaregoodat {
+    background: url(../images/qube.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.motivation {
+    background: url(../images/motivation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
 .lefter {
     clear: both;
 }
@@ -514,4 +560,91 @@ a {
 
 #subbuttoncontact:hover {
     opacity: 0.7;
+}
+
+
+
+
+#dowhat6    {
+    width: 70%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.dowhatimg  {
+    background: url(../images/do.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.custimg    {
+    background: url(../images/cus.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.whatyou    {
+     background: url(../images/what.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#dowhatheading  {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: adam;
+    line-height: 400px;
+    letter-spacing: 3px;
+}
+
+#dowhat7    {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+
+#dowhat8    {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#dowhat9    {
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+}
+
+.bitdo  {
+    font-size: 21px;
+    width: 60%;
+    line-height: 29px;
+    color: #19639c;
+    margin: 30px auto;
+    line-height: 1.58;
+    letter-spacing: -0.003em;
+    font-style: normal;
+    font-weight: 400;
+    font-family: lato;
+    text-align: left;
+}
+
+.bitquote   {
+     width: 70%;
+    margin: 10px auto;
+    font-size: 28px;
+    line-height: 1.48;
+    color: #57abeb;
+    font-family: latoLightItalic;
+    letter-spacing: 2px;
+}
+
+.largearticle   {
+    width: 60%;
+    text-align: left;
+    font-size: 21px;
+    line-height: 1.58;
 }
