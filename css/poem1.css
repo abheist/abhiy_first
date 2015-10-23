@@ -410,14 +410,21 @@ a {
 }
 
 .notlovedivpoem {
-    background: url(../images/back12.jpg);
+    background: url(../images/tangle.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .myseconddivpoem {
-    background: url(../images/back12.jpg);
+    background: url(../images/rapu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sorrydivpoem {
+    background: url(../images/flynn.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -428,18 +435,83 @@ a {
 }
 
 
+.artpic {
+    max-height: 300px;
+}
 
 
+#artpicdiv  {
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+
+.artthirdlast   {
+    height: 300px;
+    max-width: 430px;
+}
 
 
+#formcontact    {
+    width: 80%;
+    margin: 0px auto;
+}
 
 
+#mailcontactinput   {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    margin-left: 25%;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    border: 0px;
+    font-family: lato;
+}
+
+#mailcontactinput[placeholder]  {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#areacontactinput   {
+    width: 50%;
+    height: 150px;
+    margin: 0px auto;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    border: 0px;
+    font-family: lato;
+}
+
+#areacontactinput[placeholder]   {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 
 
+#subbuttoncontact   {
+    width: 52.8%;
+    height: 40px;
+    color: #19639c;
+    background: #292f33;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: latoBlack;
+    margin-bottom: 40px;
+    margin-top: 10px auto;
+    margin-left: 25%;
+}
 
 
-
-
-
-
-
+#subbuttoncontact:hover {
+    opacity: 0.7;
+}

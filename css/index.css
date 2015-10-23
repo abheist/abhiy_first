@@ -99,6 +99,7 @@ a	{
 .navlist	{
 	float: left;
 	list-style: none;
+	display: inline;
 	width: 100px;
 	text-align: center;
 	color: #34FFE9;

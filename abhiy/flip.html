@@ -1,0 +1,83 @@
+
+<div class="flip-container">
+  <div class="flipper">
+    <div class="front">
+      <span class="name">abhiy</span>
+    </div>
+    <div class="back">
+      <div class="back-logo"></div>
+      <div class="back-title">@yabhis</div>
+      <p>Software Engineer | Web Developer | Designer | and web lover.</p>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+.flip-container {
+  perspective: 1000;
+  float: left;
+}
+
+  .flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+.flip-container, .front, .back {
+  width: 320px;
+  height: 427px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  background: url(images/back12.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background: #f8f8f8;
+}
+
+.front .name {
+  font-size: 2em;
+  display: inline-block;
+  background: rgba(33, 33, 33, 0.9);
+  color: #f8f8f8;
+  font-family: Courier;
+  padding: 5px 10px;
+  border-radius: 5px;
+  bottom: 60px;
+  left: 25%;
+  position: absolute;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+  transform: rotate(-20deg);
+}
+
+.back-logo {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  width: 160px;
+  height: 117px;
+  background: url(images/yas1.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+</style>
